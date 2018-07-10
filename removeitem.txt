@@ -1,0 +1,25 @@
+<?php
+$servername="localhost";
+$username="kanishkGupta";
+$password="kanishk1999";
+$dbname="kstore";
+$connect3=new mysqli($servername,$username,$password,$dbname);
+//$iid=$_POST["pid"];
+//$off=$_POST["offers2"];
+$iid="SMSNG-S9";
+$off="<ul>
+<li>No Cost EMIs from Rs 250 per month with 25% Down Payment<li>
+<li>Other EMIs from Rs 200 per month<li>
+<li>The maximum order qty is limited to 1 unit per customer every 30 days.<li>
+<li>Bank OfferExtra 5% off with Axis Bank Buzz Credit Card<li>
+<li>Partner OfferJio : Get Rs 2200 cashback, Recharge with Rs198 or 299 Per month</li>
+</ul>";
+$sql="update products set Offers='$off' where ProductID='$iid'";
+$connect3->query($sql);
+echo "hogaya";
+if ($connect3->query($sql) === TRUE) {
+    echo "Record updated successfully";
+} else {
+    echo "Error updating record: " . $connect3->error;
+}
+?>

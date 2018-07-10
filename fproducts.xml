@@ -1,0 +1,35 @@
+<catalog>
+<product>
+<Pid id="id1">RN5</PID>
+<image id="img1"><img src="pics\download.png" width=150 height=150 class="img1"></image>
+<name id="name1">Redmi Note 5</name>
+<price id="price1">Rs 9999</price>
+<dicount id="dis1">Rs 0</discount>
+<cart id="btn1"><button class="btn btn-primary btn-lg btn-block" >Add To Cart</button></cart>
+</product>
+<product>
+<Pid id="id2">SMSNG-S9</PID>
+<image id="img2"><img src="pics/s9.jpeg" width=150 height=150 class="img2" id="img2"></image>
+<name id="name2">Samsung Galaxy S9</name>
+<price id="price2">Rs 63999</price>
+<dicount id="dis2">Rs 0</discount>
+<cart id="btn2"><button class="btn btn-primary btn-lg btn-block" >Add To Cart</button></cart>
+</product>
+<product>
+<Pid id="id3">R5A</PID>
+<image id="img3"><img src="pics/5a.jpg" width=150 height=150 class="img3"></image>
+<name id="name3">Redmi 5A</name>
+<price id="price3">Rs 5999</price>
+<dicount id="dis3">Rs 0</discount>
+<cart id="btn3"><button class="btn btn-primary btn-lg btn-block" >Add To Cart</button></cart>
+</product>
+
+<product>
+<Pid id="id4">RN5-PRO</PID>
+<image id="img4"><img src="pics/LAKEBLUE.jpg" width=150 height=150 class="img4"></image>
+<name id="name4">Redmi Note 5 Pro</name>
+<price id="price4">Rs 14999</price>
+<dicount id="dis4">Rs 0</discount>
+<cart id="btn4"><button class="btn btn-primary btn-lg btn-block" >Add To Cart</button></cart>
+</product>
+</catalog>

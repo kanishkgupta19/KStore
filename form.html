@@ -1,0 +1,42 @@
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+</style>
+
+<body>
+<div class="w3-row">
+<div class="w3-col m3 w3-center">   </div>
+<form name="my" id="my">
+<br><div class="w3-col m6" onfocus="vali(this)"><label>Email&nbsp;</label><input type="text" class="form-control" placeholder="Email" name="Umail"><br><br>
+<label>Text&nbsp;&nbsp;&nbsp;</label><textarea class="form-control" rows="4" placeholder="Enter Text Here"></textarea>
+
+</form>
+<button onclick="return validate()">click Po</button>
+</div>
+<div class="w3-col m3 w3-center"></div>
+</div>
+
+<script>
+function validate()
+{var x=document.forms["my"]["Umail"].value;
+//alert(x);
+var l=x.length;
+  var i=0,flag=0;
+  while(i<=l)
+  { if(x[i]=='@' || x[i]=='.')
+	  flag++;
+	  i++;
+  }	 
+if(flag!=2 || l<5)
+{alert("Email ID not valid");
+ return false;
+}
+else if(flag==2 && l>=5) return true;
+}
+
+function vali(u)
+{u.
+</script>
+</body>
+</html>
